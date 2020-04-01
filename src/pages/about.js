@@ -1,10 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
+import {AboutHeader} from '../components/headers'
 
 const About =()=>{
     return(
         <Layout>
-        <h2>About page</h2>
+            <AboutHeader/>
+        <h1>About us</h1>
+        <h3>a little about us</h3>
         </Layout>
     )
 }

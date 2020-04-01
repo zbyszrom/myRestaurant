@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
+import {ContactHeader} from '../components/headers'
 
 const Contact =()=>{
     return(
         <Layout>
-            <h2>Contact page</h2>
+            <ContactHeader/>
         </Layout>
     )
 }
