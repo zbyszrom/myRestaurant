@@ -6,8 +6,6 @@ const About =()=>{
     return(
         <Layout>
             <AboutHeader/>
-        <h1>About us</h1>
-        <h3>a little about us</h3>
         </Layout>
     )
 }

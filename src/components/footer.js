@@ -6,6 +6,7 @@ const Footer = ()=>{
     return(
        <footer>
            <div>
+            <div>Eatery</div>
            <a href="" target="_blank" rel="noopener noreferrer"><FaFacebook size = '1.8rem' /></a>
           <a href="" target="_blank" rel="noopener noreferrer"><FaTwitter size = '1.8rem'/></a>
           <a href="" target="_blank" rel="noopener noreferrer"><FaInstagram size = '1.8rem'/></a>

@@ -7,9 +7,7 @@ import {MenuHeader} from '../components/headers'
 const Menu =()=>{
     return(
         <Layout>
-            <MenuHeader/>
-            <h1>Our Menu</h1>
-            <h3>Let's dig in</h3>
+            <MenuHeader/>            
         </Layout>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
 
@@ -28,7 +29,9 @@ const HomeHeader = ()=>{
 
     return(
         <BackgroundImage fluid = {backgrounds[2].node.childImageSharp.fluid}>
-        <h2>This is a home header</h2>
+        <h1>Eatery</h1>
+        <h3>55 Main Street- Santa Monica, CA</h3>
+        <Link to = '/menu'>menu</Link>
         </BackgroundImage>
     )
     }
@@ -39,7 +42,8 @@ const AboutHeader = ()=>{
 
     return(
         <BackgroundImage fluid = {backgrounds[0].node.childImageSharp.fluid}>
-        <h2>This is about header</h2>
+        <h1>About us</h1>
+        <h3>a little about us</h3>
         </BackgroundImage>
     )
 }
@@ -50,7 +54,8 @@ const MenuHeader = ()=>{
 
     return(
         <BackgroundImage fluid = {backgrounds[3].node.childImageSharp.fluid}>
-        <h2>This is menu header</h2>
+            <h1>Our Menu</h1>
+            <h3>Let's dig in</h3>
         </BackgroundImage>
     )
 }
